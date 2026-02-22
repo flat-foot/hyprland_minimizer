@@ -32,7 +32,7 @@ Hyprland Minimizer creates persistent tray icons for your applications, allowing
 git clone https://github.com/0rteip/hyprland_minimizer
 cd hyprland_minimizer
 cargo build --release
-sudo cp target/release/hyprland_minimizer /usr/local/bin/
+sudo cp target/release/hyprland-minimizer /usr/local/bin/
 ```
 
 ### Copy example config (optional)
