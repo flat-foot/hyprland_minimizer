@@ -39,7 +39,7 @@ sudo cp target/release/hyprland_minimizer /usr/local/bin/
 
 ```bash
 mkdir -p ~/.config/hyprland-minimizer
-cp config.example.toml ~/.config/hyprland_minimizer/config.toml
+cp config.example.toml ~/.config/hyprland-minimizer/config.toml
 ```
 
 A default config will be created automatically on first run if none exists.
@@ -48,7 +48,7 @@ A default config will be created automatically on first run if none exists.
 
 ## Configuration
 
-Edit `~/.config/hyprland_minimizer/config.toml` to define your applications:
+Edit `~/.config/hyprland-minimizer/config.toml` to define your applications:
 
 ```toml
 [apps.app_id]
