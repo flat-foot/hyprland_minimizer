@@ -29,17 +29,17 @@ Hyprland Minimizer creates persistent tray icons for your applications, allowing
 ### Build from source
 
 ```bash
-git clone https://github.com/Simon-Martens/hyprland-minimizer
-cd hyprland-minimizer
+git clone https://github.com/0rteip/hyprland_minimizer
+cd hyprland_minimizer
 cargo build --release
-sudo cp target/release/hyprland-minimizer /usr/local/bin/
+sudo cp target/release/hyprland_minimizer /usr/local/bin/
 ```
 
 ### Copy example config (optional)
 
 ```bash
 mkdir -p ~/.config/hyprland-minimizer
-cp config.example.toml ~/.config/hyprland-minimizer/config.toml
+cp config.example.toml ~/.config/hyprland_minimizer/config.toml
 ```
 
 A default config will be created automatically on first run if none exists.
@@ -48,7 +48,7 @@ A default config will be created automatically on first run if none exists.
 
 ## Configuration
 
-Edit `~/.config/hyprland-minimizer/config.toml` to define your applications:
+Edit `~/.config/hyprland_minimizer/config.toml` to define your applications:
 
 ```toml
 [apps.app_id]
